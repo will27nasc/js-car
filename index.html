@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Projeto 05</title>
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+</head>
+<body>
+
+<header>
+
+	<div class="container">
+	<div class="logo">
+		<img src="imagens/logo2.jpg" height="150px" weigth= "150px" />
+	</div><!--logo-->
+
+	<nav class="desktop">
+		<ul>
+			<li><a style="color:white;" href="index.html">Home</a></li>
+			<li><a href="venda.html">Venda</a></li>
+			<li><a href="sobre.html">Sobre</a></li>
+			<li><a goto="contato" href="">Contato</a></li>
+		</ul>
+	</nav><!--desktop-->
+
+	<nav class="mobile">
+		<ul>
+			<li><a style="color: white;" href="index.html">Home</a></li>
+			<li><a href="venda.html">Venda</a></li>
+			<li><a href="sobre.html">Sobre</a></li>
+			<li><a goto="contato" href="js/funcoes.js?goto">Contato</a></li>
+		</ul>
+	</nav><!--mobile-->
+
+	<div class="clear"></div>
+	</div><!--container-->
+</header>
+
+<section class="banner">
+	<div class="container">
+	<div class="text-banner">
+		<div class="text-banner-single">Consultoria</div>
+		<div class="text-banner-single">Compra</div>
+		<div class="text-banner-single">Venda</div>
+		<div class="text-banner-single">e-mail@hotmail.com</div>
+	</div><!--text-banner-->
+	</div><!--container-->
+</section><!--banner-->
+
+<section class="veiculos-destaque">
+	<div class="line-titulo">
+		<div class="ln1"></div>
+		<div class="ln2"></div>
+		<h2>Veículos em destaque</h2>
+	</div><!--line-titulo-->
+	<div class="container">
+	<div class="vitrine-destaque">
+		<div style="background-image:url('imagens/brasilia.jpg');" class="carro-img"></div><!--carro-img-->
+		<div class="info-carro">
+			<h2>Volkswagen Brasilia</h2>
+			<p>1.6, Gasolina, 2P, Manual1972</p>
+			<a class="btn1" href="detalhesBrasilia.html">Mais Detalhes</a>
+		</div><!--info-carro-->
+	</div><!--vitrine-destaque-->
+
+	<div class="vitrine-destaque">
+		<div style="background-image:url('imagens/chevette.jpg');" class="carro-img"></div><!--carro-img-->
+		<div class="info-carro">
+			<h2>Chevrolet Chevette</h2>
+			<p>1.6, Gasolina, 2P, Manual1979</p>
+			<a class="btn1" href="detalhesChevette.html">Mais Detalhes</a>
+		</div><!--info-carro-->
+	</div><!--vitrine-destaque-->
+
+	<div class="vitrine-destaque">
+		<div style="background-image:url('imagens/fusca.jpg');" class="carro-img"></div><!--carro-img-->
+		<div class="info-carro">
+			<h2>Volkswagen Fusca</h2>
+			<p>1.6, Gasolina, 2P, Manual1986</p>
+			<a class="btn1" href="detalhesFusca.html">Mais Detalhes</a>
+		</div><!--info-carro-->
+	</div><!--vitrine-destaque-->
+	<div class="clear"></div>
+	</div><!--container-->
+</section><!--veiculos-destaque-->
+
+<section class="servicos-descricao">
+	<div class="half1">
+		<div class="half1-wraper">
+		<h2>Serviços</h2>
+		<ul>
+			<li>Compra</li>
+			<li>Venda</li>
+			<li>Consultoria de veículos</li>
+			<li>Indicação de Mecânicos e peças</li>
+		</ul>
+		<a class="btn1" href="">Saiba mais</a>
+		</div>
+	</div><!--half-1-->
+
+	<div class="half2">
+
+		<h2>Depoimentos</h2>
+		<div class="depoimento-single">
+			<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac tincidunt lorem. Nulla condimentum et dolor et convallis. Mauris egestas ligula in pharetra venenatis. 
+				Etiam pharetra ipsum libero, vitae dignissim tortor imperdiet et. Aenean in tellus lorem ligula in pharetra venenatis.”</p>
+			<div class="navigation">
+				<div class="arrows">
+					<img src="imagens/arrowLeft.png" height="35px" />
+					<img src="imagens/arrowRight.png" height="35px" />
+				</div><!--arrows-->
+				<div class="nome-depoimento">Paul Walker</div>
+			</div><!--navigation-->
+		</div><!--depoimento-single-->
+	</div><!--half2-->
+
+</section><!--servicos-descricao-->
+
+<section id="contato" class="contato">
+	<div class="line-titulo">
+		<div class="ln1"></div>
+		<div class="ln2"></div>
+		<h2>Contato</h2>
+	</div><!--line-titulo-->
+
+	<form>
+		<div class="input-wraper w100">
+			<input placeholder="Nome*" type="text" required />
+		</div><!--input-wraper-->
+
+		<div class="input-wraper w50">
+			<input placeholder="E-mail*" type="text" required />
+		</div><!--input-wraper-->
+
+		<div class="input-wraper w50">
+			<input placeholder="Telefone*" type="text" required />
+		</div><!--input-wraper-->
+
+		<div class="input-wraper w100">
+			<textarea placeholder="Mensagem*" required></textarea>
+		</div><!--input-wraper-->
+
+		<div class="input-wraper w100">
+			<input class="btn1" type="submit" value="Enviar" />
+		</div><!--input-wraper-->
+
+		<div class="clear"></div><!--clear-->
+
+	</form>
+
+</section><!--contato-->
+
+<footer>
+	<div class="container">
+	<nav>
+		<ul>
+			<li><a style="color:#ffd23f;" href="index.html">Home</a></li>
+			<li><a href="venda.html">Venda</a></li>
+			<li><a href="sobre.html">Sobre</a></li>
+			<li><a href="">Contato</a></li>
+		</ul>
+	</nav>
+	<p>Todos os direitos reservados</p>
+	<div class="clear"></div>
+	</div><!--container-->
+</footer>
+<script src="js/jquery.js"></script>
+<script src="js/funcoes.js"></script>
+</body>
+</html>
